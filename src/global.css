@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font: 400 17px 'Barlow', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.logo {
+    width: 100%;
+}
+
+.personagem {
+    width: 100%;
+}
+
+.logo-div {
+    margin-top: 5vh;
+}
+
+.text {
+    margin-bottom: 5vh;
+}
+
+@media only screen and (max-width: 700px) {
+    
+    .logo {
+        width: 200%;
+        padding-left: 3vw;
+        overflow: hidden;
+    }
+
+    .img-div {
+        text-align: center;
+    }
+
+    .personagem {
+        width: 40%;
+    }
+  }
